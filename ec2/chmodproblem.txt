@@ -1,0 +1,6 @@
+https://stackoverflow.com/questions/46610256/chmod-wsl-bash-doesnt-work
+
+Have to create the wsl.config file in the etc/ folder, and paste this:
+
+[automount]
+options = "metadata"
